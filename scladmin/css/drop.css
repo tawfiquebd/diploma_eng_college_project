@@ -1,0 +1,46 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+	line-height: 30px;
+	transition:500ms;
+}
+
+nav li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	position: relative;
+	transition:500ms;
+
+
+}
+nav ul li a{
+	text-align: center;
+	text-decoration: none;
+	height: 30px;
+	width: 150px;
+	display: block;
+	border:1px solid rgba(81,83,88,0.15);
+}
+
+nav ul ul{
+	position: absolute;
+	visibility: hidden;
+	top: 90px;
+	transition:500ms;
+}
+nav ul ul li a{
+	text-align: center;
+	color: 
+}
+nav ul li:hover ul{
+	visibility: visible;
+	top:30px;
+}

@@ -1,0 +1,752 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.main-header-fluid {
+  overflow: hidden;
+  border: 1px solid rgba(81,83,88,0.12);
+  padding: 10px 0;
+}
+
+.main-header-fluid-container{}
+
+.logo-img {
+  border-radius: 0;
+  height: 120px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.logo-img a{}
+.logo-img a img{
+	height: 100%;
+	display: block;
+}
+
+.school-title {
+  height: 120px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+
+.school-title a {
+  background: #d92b52 none repeat scroll 0 0;
+  border-radius: 68px;
+  color: #fff;
+  display: block;
+  font-size: 2.5rem;
+  font-weight: bold;
+  left: 20%;
+  overflow: hidden;
+  padding: 10px 101px;
+  position: absolute;
+  text-decoration: none;
+  top: 27%;
+  transition: all 500ms ease 0s;
+  z-index: 9 !important;
+}
+
+.log-btn{
+  margin-top: 30px;
+}
+
+.social-link{
+  text-align: center;
+  overflow: hidden;
+}
+
+.leftone {
+  background: #119e5a none repeat scroll 0 0;
+  display: block;
+  height: 56px;
+  left: -50%;
+  position: absolute;
+  top: 0;
+  transition: all 500ms ease 0s;
+  width: 100%;
+  z-index: -1;
+}
+
+.school-title a:hover .leftone{
+  left:50%;
+}
+
+
+
+.rightone {
+  background: #000 none repeat scroll 0 0;
+  display: block;
+  height: 56px;
+  left: 50%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+  transition:500ms;
+}
+
+.school-title a:hover .rightone{
+  left:-50%;
+}
+
+
+.social-link h3 {
+  color: #d92b52;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.social-link h3 {
+  color: #d92b52;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.social-link a{
+	display: inline-block;
+  text-decoration: none;
+}
+
+.social-link a i {
+  background: #d92b52;
+  display: block;
+  font-size: 2rem;
+  height: 33px;
+  padding: 7px;
+  text-align: center;
+  width: 33px;
+  color: #fff;
+  border-radius: 151px;
+}
+
+.admin-post-fluid{
+  padding: 0;
+  overflow: hidden;
+}
+
+
+.admin-option {
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  height: 144px;
+}
+.admin-option a{
+	text-decoration: none;
+	display: inline-block;
+}
+
+.admin-option a i{
+	position: absolute;
+	top:12%;
+	left: 20%;
+	height: 50px;
+	width: 50px;
+	display: inline-block;
+	background: rgba(81, 83, 88, 0.5);
+	border:1px solid #000;
+
+}
+
+.admin-option a h1{
+	position: absolute;
+	top: 40%;
+	left: 20%;
+}
+
+
+/* LEFT MENU DESIGN */
+
+.side_i {
+  font-size: 13px;
+  padding: 5px 10px 0;
+  color: #000;
+}
+
+.sidebar_ul{
+	list-style: none;
+	padding: 0;
+}
+
+.sidebar_ul li{
+	padding: 5px 0;
+}
+
+.sidebar_ul li a {
+  background: #000;
+  color: #fff;
+  display: block;
+  font-weight: normal;
+  transition: all 500ms ease 0s;
+}
+
+.sidebar_ul li a:hover{
+	background: #000;
+}
+
+.admin_panel_default {
+  border-radius: 0!important;
+}
+
+.admin_panel_default a {
+  display: block;
+  font-weight: bold;
+  padding: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.left_main{
+	padding: 50px 0 0 0;
+	overflow: hidden;
+}
+
+.page_text{
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+  background: #D92B52;
+}
+
+.page_text h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  left: 3%;
+  position: absolute;
+  text-transform: uppercase;
+  top: 49%;
+  transform: rotate(-90deg);
+  color: #fff;
+}
+
+.page_text h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  left: 30%;
+  position: absolute;
+  text-transform: uppercase;
+  top: 27%;
+  transform: rotate(-90deg);
+  color: #fff;
+}
+
+
+/* === IMAGE GALLERY DESIGN === */
+
+.page_text_gallery{
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+  background: #D92B52;
+}
+
+
+.page_text_gallery h1 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  left: -25%;
+  margin: 0;
+  position: absolute;
+  text-transform: uppercase;
+  top: 58%;
+  transform: rotate(-90deg);
+}
+
+.page_text_gallery h2 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  left: -20%;
+  margin: 0;
+  position: absolute;
+  text-transform: uppercase;
+  top: 14%;
+  transform: rotate(-90deg);
+  width: 146%;
+}
+
+/* === IMAGE GALLERY DESIGN === */
+
+
+/* === IMAGE GALLERY DESIGN === */
+
+.abtupdate{
+  position: relative;
+  overflow: hidden;
+  background: #000;
+}
+
+
+.abtupdate h1 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.abtupdate h2 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  left: -5%;
+  margin: 0;
+  position: absolute;
+  text-transform: uppercase;
+  top: 22%;
+  transform: rotate(-90deg);
+  width: 108%;
+}
+
+/* === IMAGE GALLERY DESIGN === */
+
+
+/* === PROFILE PAGE DESIGN === */
+
+.profilepage{
+  overflow: hidden;
+  height: 300px;
+  background: #D92B52;
+}
+
+
+/* === PROFILE PAGE DESIGN === */
+
+/* === SUB MENU DESIGN === */
+
+.page_text_submenu{
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+  background: #D92B52;
+}
+
+
+.page_text_submenu h1 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  left: 22%;
+  position: absolute;
+  text-transform: uppercase;
+  top: 52%;
+  transform: rotate(-90deg);
+}
+
+
+.page_text_submenu h2 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  left: -24%;
+  margin: 0;
+  position: absolute;
+  text-transform: uppercase;
+  top: 30%;
+  transform: rotate(-90deg);
+  width: 146%;
+}
+/* === SUB MENU DESIGN === */
+
+/* === ADD COMMITTIEE DESIGN === */
+
+.page_text_committiee{
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+  background: #D92B52;
+}
+
+
+.page_text_committiee h1 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  left: 22%;
+  position: absolute;
+  text-transform: uppercase;
+  top: 52%;
+  transform: rotate(-90deg);
+}
+
+
+.page_text_committiee h2 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  left: -24%;
+  margin: 0;
+  position: absolute;
+  text-transform: uppercase;
+  top: 30%;
+  transform: rotate(-90deg);
+  width: 146%;
+}
+
+/* === ADD COMMITTIEE DESIGN === */
+
+
+
+/* === IMAGE UPLOADED DESIGN === */
+
+.page_text_imgstory{
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+  background: #D92B52;
+}
+
+.page_text_imgstory h1 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  left: -10%;
+  position: absolute;
+  text-transform: uppercase;
+  top: 53%;
+  transform: rotate(-90deg);
+}
+
+.page_text_imgstory h2 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  left: -24%;
+  margin: 0;
+  position: absolute;
+  text-transform: uppercase;
+  top: 22%;
+  transform: rotate(-90deg);
+  width: 146%;
+}
+
+/* === IMAGE UPLOADED DESIGN === */
+
+
+/* === ALBUM INFO DESIGN === */
+
+.albuminfo{
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+  background: #D92B52;
+}
+
+.albuminfo h1 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  left: -36%;
+  margin: 0;
+  position: absolute;
+  text-transform: uppercase;
+  top: 61%;
+  transform: rotate(-90deg);
+  width: 167%;
+}
+
+.albuminfo h2 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  left: -13%;
+  margin: 0;
+  position: absolute;
+  text-transform: uppercase;
+  top: 22%;
+  transform: rotate(-90deg);
+  width: 121%;
+}
+
+/* === ALBUM INFO DESIGN === */
+
+
+/* === ALBUM IMAGE DESIGN === */
+
+.img_gallery{
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+  background: #D92B52;
+}
+
+.img_gallery h1 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  left: -51%;
+  margin: 0;
+  position: absolute;
+  text-transform: uppercase;
+  top: 56%;
+  transform: rotate(-90deg);
+  width: 200%;
+}
+
+.img_gallery h2 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  left: 11%;
+  margin: 0;
+  position: absolute;
+  text-transform: uppercase;
+  top: 18%;
+  transform: rotate(-90deg);
+  width: 74%;
+}
+
+/* === ALBUM IMAGE DESIGN === */
+
+
+.right_div{
+  padding: 50px 0 0 0;
+  overflow: hidden;
+}
+
+.about_select {
+  border-radius: 0;
+  font-size: 1.5rem;
+  height: 46px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+
+.about_select option {
+  border-bottom: 1px solid rgba(81, 83, 88, 0.15);
+  color: rgba(81, 83, 88, 0.67);
+  padding: 7px 0;
+}
+
+.about_text_area {
+  border-radius: 0;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.about_submit {
+  background: #000;
+  border: none;
+  padding: 10px;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.form-control:focus {
+  border-color: rgba(217, 43, 82, 0.5);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(217, 43, 82, 0.5);
+  outline: 0 none;
+}
+
+
+.about_file {
+  border-radius: 0;
+  font-size: 1.5rem;
+  height: 46px;
+  padding: 0 !important;
+}
+
+
+/* === SUB MENU DESIGN === */
+
+.addsub{
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+  background: #D92B52;
+}
+
+
+.addsub h1 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  left: 22%;
+  position: absolute;
+  text-transform: uppercase;
+  top: 52%;
+  transform: rotate(-90deg);
+}
+
+
+.addsub h2 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  left: -24%;
+  margin: 0;
+  position: absolute;
+  text-transform: uppercase;
+  top: 30%;
+  transform: rotate(-90deg);
+  width: 146%;
+}
+/* === SUB MENU DESIGN === */
+
+
+/* start admin table design */
+
+.admin_table{}
+
+.admin_table thead tr th {
+  color: rgba(81,83,88,0.72);
+}
+
+.admin_table tbody tr td{
+  overflow: hidden;
+}
+
+.admin_table tbody tr td a{
+  display: inline-block;
+  margin: 0 2px;
+}
+
+.ad_edit {
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 2rem;
+  height: 30px;
+  padding: 5px 0 0;
+  text-align: center;
+  background: #1AA260;
+  color: #fff;
+  width: 30px;
+}
+
+.ad_delete {
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 2rem;
+  height: 30px;
+  padding: 5px 0 0;
+  text-align: center;
+  width: 30px;
+  background: #DD4E41;
+  color: #fff;
+}
+
+.img_updated{
+  display: block;
+}
+
+.img_div_uploaded {
+  border: 1px solid #000;
+  height: 50px;
+  overflow: hidden;
+  width: 92px;
+}
+
+.img_div_uploaded h1{
+  margin: 0;
+}
+/* end of admin table design */
+
+.panel-body{
+  padding: 0 15px;
+}
+
+
+/* animation css code */
+.alert{
+    font-size:2em !important;
+    position:absolute;
+    top:-110%;
+    left:0;
+    width:100%;
+    animation:alaert_anim 5s 1;
+    z-index: 99999999!important;
+}
+.alert i{
+    font-size:1.7em !important;
+}
+
+@keyframes alaert_anim{
+    0%{top:-110%;}
+    25%{top:-110%;}
+    30%{top:10px;}
+    80%{top:10px;}
+    90%{top:30px;}
+}
+
+/* animation css code end */
+.albumname a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 74px 99px;
+  transition: all 500ms ease 0s;
+
+}
+
+.albumname{
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  height: 150px;
+  border:1px solid rgba(81,83,88,0.11);
+  margin: 5px;
+  transition: all 500ms ease 0s;
+}
+.albumname:hover{
+  box-shadow: 13px -8px 1px 18px rgba(81,83,88,0.02);
+  transform:scale(0.97);
+}
+
+.albumname a i {
+  border: 1px solid rgba(81, 83, 88, 0.15);
+  border-radius: 150px;
+  color: #D92B52;
+  display: inline-block;
+  font-size: 3rem;
+  height: 60px;
+  left: 36%;
+  padding: 13px 0 0;
+  position: absolute;
+  top: 24%;
+  transition: all 500ms ease 0s;
+  width: 60px;
+  transform:rotate(0deg);
+
+}
+.albumname a:hover i{
+  transform:rotate(360deg);
+  background: #D92B52;
+  color: #fff;
+}
+.albumname h1 {
+  color: rgba(81, 83, 88, 0.8);
+  font-size: 1.7rem;
+  font-weight: bold;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  top: 56%;
+  transition: all 500ms ease 0s;
+  width: 100%;
+}
+
+.pdfuploaded{
+  overflow: hidden;
+
+}
+.pdfuploaded a{
+  text-decoration: none;
+}
+
+.pdfuploaded a i {
+  background: #17a05e none repeat scroll 0 0;
+  border-radius: 5px;
+  color: #fff;
+  display: block;
+  font-size: 1.5rem;
+  height: 30px;
+  padding: 7px 0 0;
+  text-align: center;
+  width: 30px;
+}
